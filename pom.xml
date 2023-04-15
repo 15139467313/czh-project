@@ -16,6 +16,7 @@
         <module>czh-member</module>
         <module>czh-question</module>
         <module>czh-study</module>
+        <module>renren-fast</module>
     </modules>
 
     
