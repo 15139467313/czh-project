@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.chen.czh</groupId>
+    <artifactId>czh-project</artifactId>
+    <name>czh-project</name>
+    <version>1.0-SNAPSHOT</version>
+    <description>czh-聚合</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>czh-channel</module>
+        <module>czh-content</module>
+        <module>czh-member</module>
+        <module>czh-question</module>
+        <module>czh-study</module>
+    </modules>
+
+    
+</project>

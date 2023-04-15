@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="czh-member" />
+        <module name="czh-study" />
+        <module name="czh-channel" />
+        <module name="czh-question" />
+        <module name="czh-content" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="czh-channel" target="1.8" />
+      <module name="czh-content" target="1.8" />
+      <module name="czh-member" target="1.8" />
+      <module name="czh-project" target="1.8" />
+      <module name="czh-question" target="1.8" />
+      <module name="czh-study" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="czh-channel" options="-parameters" />
+      <module name="czh-content" options="-parameters" />
+      <module name="czh-member" options="-parameters" />
+      <module name="czh-question" options="-parameters" />
+      <module name="czh-study" options="-parameters" />
+    </option>
+  </component>
+</project>
